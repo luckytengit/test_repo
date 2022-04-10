@@ -4,5 +4,5 @@ $val1 = "abc";
 
 $arr[] = "x";
 
-echo $val1; 
+echo $val1;  
 ?>
