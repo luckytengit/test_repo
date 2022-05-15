@@ -23,9 +23,9 @@ $type		= isset($_POST['type'])? $_POST['type']:"";
 	//광고게시판
 $mov_code	= isset($_POST['mov_code'])? $_POST['mov_code']:"";
 	//이벤트게시판
-$cssjs	= isset($_POST['cssjs'])? $_POST['cssjs']:"";
-$s_date	= isset($_POST['s_date'])? $_POST['s_date']:"";
-$e_date	= isset($_POST['e_date'])? $_POST['e_date']:"";
+$cssjs		= isset($_POST['cssjs'])? $_POST['cssjs']:"";
+$s_date		= isset($_POST['s_date'])? $_POST['s_date']:"";
+$e_date		= isset($_POST['e_date'])? $_POST['e_date']:"";
 	// 고객 인터뷰
 $before_kg	= isset($_POST['before_kg'])? $_POST['before_kg']:"";
 $after_kg	= isset($_POST['after_kg'])? $_POST['after_kg']:"";
