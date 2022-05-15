@@ -1,7 +1,7 @@
 <?php
 // 인젝션
 $_POST = mysqli_r_escape_string($link, $_POST);
-
+ 
 // post
 $toSub		= $_REQUEST['main'];
 $page_sub	= $_REQUEST['sub'];
