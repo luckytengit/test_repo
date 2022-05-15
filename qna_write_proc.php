@@ -172,6 +172,7 @@ if ($no) {	// 수정 로직
 				content		='".$content."',
 				".$img_sql."
 				".$wh_sql."
+				".$cus_inv_sql."
 				date		='".$date."',
 				writer		='".$writer."'
 			where no=".$no;
@@ -183,6 +184,7 @@ if ($no) {	// 수정 로직
 				content		='".$content."',
 				".$img_sql."
 				".$wh_sql."
+				".$cus_inv_sql."
 				writer		='".$writer."',
 				date		= '".$date."'";
 }
