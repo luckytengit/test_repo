@@ -28,12 +28,12 @@ class Board_m extends CI_Model {
 		$this->db->set('reg_date', 'NOW()', false);
 
 		$this->db->insert($boardTable, array(
-			'subject'=>"$subject",
-			'sub_subject'=>"$subSubject",
-			'content'=>"$content",
-			'pwd'=>"$pwd",
+			'subject'=>$subject,
+			'sub_subject'=>$subSubject,
+			'content'=>$content,
+			'pwd'=>$pwd,
 			'wirter'=>'관리자',
-			'filename'=>"$filenames"
+			'filename'=>$filenames
 		));
 
 		$ret = $this->db->insert_id();
@@ -90,12 +90,12 @@ class Board_m extends CI_Model {
 		$this->db->set('mod_date', 'NOW()', false);
 		$this->db->where('no', $no);
 		$this->db->update($boardTable, array(
-			'subject'=>"$subject",
-			'sub_subject'=>"$subSubject",
-			'content'=>"$content",
-			'pwd'=>"$pwd",
+			'subject'=>$subject,
+			'sub_subject'=>$subSubject,
+			'content'=>$content,
+			'pwd'=>$pwd,
 			'wirter'=>'관리자',
-			'filename'=>"$filenames"
+			'filename'=>$filenames
 		));
 
 		// 목록 sort

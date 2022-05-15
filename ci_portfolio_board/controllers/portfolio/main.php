@@ -163,8 +163,8 @@ class Main extends CI_Controller {
 			$resultMsg = '전송완료 메시지';
 			 		
 			if (strpos($_SERVER["HTTP_USER_AGENT"],"MSIE")==true) {	// ie와 크롬 인코딩 크로스브라우징
-				$url = iconv("UTF-8","EUC-KR",$url);
-				$resultMsg = iconv("UTF-8","EUC-KR",$resultMsg);
+				$url = iconv("UTF-8","cp949",$url);
+				$resultMsg = iconv("UTF-8","cp949",$resultMsg);
 			}
 
 			echo "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction('".$CKEditorFuncNum."', '".$url."', '".$resultMsg."')</script>";
