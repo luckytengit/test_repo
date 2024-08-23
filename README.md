@@ -1,2 +1,2 @@
 # test_repo
-Thank you for visit..
+Thank you for visit.
